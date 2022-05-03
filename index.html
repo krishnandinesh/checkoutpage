@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Checkout</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <h1>Checkout</h1>
+    <div class="wrap-body">
+      <div class="cart-items">
+        <div class="product-list">
+          <div class="image">
+            <img src="./images/photo1.png" alt="">
+          </div>
+          <div class="product">
+            <div class="item">
+              <div class="item-name">
+                <p>Vintage Backbag</p>
+              </div>
+              <div class="item-price">
+                <span id="price">$54.99</span>
+                <span class="strike"><strike>$94.99</strike></span>
+              </div>
+            </div>
+            <div class="quantity">
+              <div class="minus">-</div>
+              <div class="number">1</div>
+              <div class="plus">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="product-list">
+          <div class="image">
+            <img src="./images/photo2.png" alt="">
+          </div>
+          <div class="product">
+            <div class="item">
+              <div class="item-name">
+                <p>Levi Shoes</p>
+              </div>
+              <div class="item-price">
+                <span id="price">$74.99</span>
+                <span class="strike"><strike>$124.99</strike></span>
+              </div>
+            </div>
+            <div class="quantity">
+              <div class="minus">-</div>
+              <div class="number">1</div>
+              <div class="plus">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="total">
+          <hr>
+          <div class="shipping">
+            <p>Shipping</p>
+            <p class="dol">$19</p>
+          </div>
+          <hr>
+          <div class="items-cost">
+            <p>Total</p>
+            <p class="dol">$148.98</p>
+          </div>
+        </div>
+      </div>
+      <div class="information">
+        <div class="contact-info">
+          <h3>Contact information</h3>
+          <div class="label">
+            <label for="email">E-mail<br></label>
+
+            <div class="icon">
+
+              <i class="material-icons i">mail</i>
+              <input type="email" class="input" name="email" id="email" placeholder="Enter your email...">
+
+            </div>
+
+          </div>
+          <div class="label">
+            <label for="phone">Phone<br>
+
+              <div class="icon">
+                <i class="material-icons i">call</i>
+                <input type="number" class="input" name="phone" id="phone" minlength="9" maxlength="13"
+                  placeholder="Enter your phone...">
+              </div>
+
+            </label>
+          </div>
+        </div>
+        <div class="shipping-info">
+          <h3>Shipping address</h3>
+          <div class="label">
+            <label for="name">Full name<br></label>
+
+            <div class="icon">
+              <i class="material-icons i">account_circle</i>
+              <input type="text" class="input" name="name" id="name" placeholder="Enter your name...">
+            </div>
+
+          </div>
+          <div class="label">
+            <label for="address">Address<br>
+              <div class="icon">
+                <i class="material-icons i">home</i>
+                <input type="text" class="input" name="address" id="address" placeholder="Your address...">
+              </div>
+
+            </label>
+          </div>
+          <div class="label">
+            <label for="city">City<br>
+
+              <div class="icon">
+                <i class="material-icons i">location_city</i>
+                <input type="text" class="input" name="city" id="city" placeholder="Your city...">
+              </div>
+
+            </label>
+          </div>
+          <div class="loc">
+            <div class="label-two">
+              <label for="country">Country<br>
+
+                <div class="icon">
+                  <i class="material-icons i">public</i>
+                  <select class="input input-country" name="country" id="country" required>
+                    <option id="hid" value="" disabled selected hidden>Your country...</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="India">India</option>
+                    <option value="Japan">Japan</option>
+                    <option value="North Korea">North Korea</option>
+                  </select>
+                </div>
+
+              </label>
+            </div>
+            <div class="label-three">
+              <label for="post">Postal code<br>
+
+                <div class="icon">
+                  <i class="material-icons i">markunread_mailbox</i>
+                  <input type="number" class="input" name="post" id="post" placeholder="Your postal code...">
+                </div>
+
+              </label>
+            </div>
+          </div>
+          <div class="select">
+            <input type="checkbox" name="save" id="save">
+            <label for="save" class="save">Save this information for next time</label>
+          </div>
+          <div class="end">
+            <button>Continue</button>
+          </div>
+        </div>
+
+      </div>
+
+      
+    </div>
+    <div class="credit">
+      Created by <span><a href="https://github.com/krishnandinesh" target="_blank">krishnan Dinesh</a></span> - devChallenges.io
+    </div>
+  </div>
+
+  
+
+
+</body>
+
+</html>
